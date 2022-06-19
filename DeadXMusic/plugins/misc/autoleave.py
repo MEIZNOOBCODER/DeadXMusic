@@ -11,9 +11,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki, autoend
-from YukkiMusic.utils.database import (get_client, is_active_chat,
+from DeadXMusic import app
+from DeadXMusic.core.call import Yukki, autoend
+from DeadXMusic.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -22,7 +22,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from YukkiMusic.core.userbot import assistants
+            from DeadXMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

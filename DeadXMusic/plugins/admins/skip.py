@@ -13,15 +13,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import get_loop
-from YukkiMusic.utils.decorators import AdminRightsCheck
-from YukkiMusic.utils.inline.play import (stream_markup,
+from DeadXMusic import YouTube, app
+from DeadXMusic.core.call import Yukki
+from DeadXMusic.misc import db
+from DeadXMusic.utils.database import get_loop
+from DeadXMusic.utils.decorators import AdminRightsCheck
+from DeadXMusic.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from DeadXMusic.utils.stream.autoclear import auto_clean
+from DeadXMusic.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")

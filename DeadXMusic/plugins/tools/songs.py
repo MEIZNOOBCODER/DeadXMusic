@@ -20,10 +20,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.formatters import convert_bytes
-from YukkiMusic.utils.inline.song import song_markup
+from DeadXMusic import YouTube, app
+from DeadXMusic.utils.decorators.language import language, languageCB
+from DeadXMusic.utils.formatters import convert_bytes
+from DeadXMusic.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")

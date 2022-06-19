@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.misc import db
-from YukkiMusic.utils import AdminRightsCheck, seconds_to_min
+from DeadXMusic import YouTube, app
+from DeadXMusic.core.call import Yukki
+from DeadXMusic.misc import db
+from DeadXMusic.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")

@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
@@ -10,10 +11,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from YukkiMusic import YouTube, app
-from YukkiMusic.utils.channelplay import get_channeplayCB
-from YukkiMusic.utils.decorators.language import languageCB
-from YukkiMusic.utils.stream.stream import stream
+from DeadXMusic import YouTube, app
+from DeadXMusic.utils.channelplay import get_channeplayCB
+from DeadXMusic.utils.decorators.language import languageCB
+from DeadXMusic.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)

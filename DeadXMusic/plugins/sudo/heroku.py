@@ -24,13 +24,13 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import HAPP, SUDOERS, XCB
-from YukkiMusic.utils.database import (get_active_chats,
+from DeadXMusic import app
+from DeadXMusic.misc import HAPP, SUDOERS, XCB
+from DeadXMusic.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from YukkiMusic.utils.decorators.language import language
-from YukkiMusic.utils.pastebin import Yukkibin
+from DeadXMusic.utils.decorators.language import language
+from DeadXMusic.utils.pastebin import Yukkibin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
