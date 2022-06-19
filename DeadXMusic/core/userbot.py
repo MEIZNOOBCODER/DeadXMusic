@@ -57,8 +57,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TeamYukki")
-                await self.one.join_chat("TheYukki")
+                await self.one.join_chat("S_Unstoppable")
+                await self.one.join_chat("Unstoppable_Bots")
                 await self.one.join_chat("YukkiSupport")
             except:
                 pass
@@ -88,8 +88,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("TeamYukki")
-                await self.two.join_chat("TheYukki")
+                await self.two.join_chat("S_Unstoppable")
+                await self.two.join_chat("Unstoppable_Bots")
                 await self.two.join_chat("YukkiSupport")
             except:
                 pass
@@ -119,8 +119,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("TeamYukki")
-                await self.three.join_chat("TheYukki")
+                await self.three.join_chat("S_Unstoppable")
+                await self.three.join_chat("Unstoppable_Bots")
                 await self.three.join_chat("YukkiSupport")
             except:
                 pass
@@ -150,8 +150,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("TeamYukki")
-                await self.four.join_chat("TheYukki")
+                await self.four.join_chat("S_Unstoppable")
+                await self.four.join_chat("Unstoppable_Bots")
                 await self.four.join_chat("YukkiSupport")
             except:
                 pass
@@ -181,8 +181,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TeamYukki")
-                await self.five.join_chat("TheYukki")
+                await self.five.join_chat("S_Unstoppable")
+                await self.five.join_chat("Unstoppable_Bots")
                 await self.five.join_chat("YukkiSupport")
             except:
                 pass
