@@ -103,7 +103,7 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevc"]
+ACTIVEVC_COMMAND : ["activevc","activevoice"]
 ACTIVEVIDEO_COMMAND : ["activevid"]
 
 #Gban Commands
