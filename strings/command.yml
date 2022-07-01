@@ -17,7 +17,7 @@ HELP_COMMAND : ["abelvdeapnakamkrn"]
 SETTINGS_COMMAND : ["panel"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["global"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
