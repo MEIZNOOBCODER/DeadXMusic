@@ -35,7 +35,7 @@ def testspeed(m):
         m = m.edit("Sharing SpeedTest Results")
     except Exception as e:
         return m.edit(e)
-    return result, path
+    return result
 
 
 @app.on_message(filters.command(SPEEDTEST_COMMAND) & SUDOERS)
